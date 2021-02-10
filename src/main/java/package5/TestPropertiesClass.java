@@ -28,6 +28,6 @@ public class TestPropertiesClass
         String Title=d.getTitle();
         System.out.println("Title is "+Title );
         d.quit();
-        System.out.println("Bye Bye");
+        System.out.println("Bye Bye Tejaswini");
     }
 }
