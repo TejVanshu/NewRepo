@@ -2,13 +2,19 @@ pipeline{
   agent any
   stages{
     stage("build"){
-      mvn clean
-    }
+      steps{
+        mvn clean
+      }
+     }
     stage("deploy"){
-      mvn install
+      steps{
+       mvn install
+      }
     }
     stage("test"){
-      mvn test
+      steps{
+        mvn test
+      }
     }
   }
 }
