@@ -24,7 +24,7 @@
   		</includes>
   	</fileSet>
   	  	<fileSet>
-  		<directory>${project.basedir}/drivers</directory>
+  		<directory>${project.build.directory}/drivers</directory>
   		<outputDirectory>/drivers</outputDirectory>
   		<includes>
   			<include>*.*</include>
