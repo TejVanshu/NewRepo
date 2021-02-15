@@ -3,17 +3,17 @@ pipeline{
   stages{
     stage("build"){
       steps{
-        mvn clean
+        echo "in build stage"
       }
      }
     stage("deploy"){
       steps{
-       mvn install
+       echo "in install stage"
       }
     }
     stage("test"){
       steps{
-        mvn test
+        echo "in test stage"
       }
     }
   }
